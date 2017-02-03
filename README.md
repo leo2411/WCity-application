@@ -1,16 +1,17 @@
 # WCity 
 World City Info application
 
-----
+
+
 Basic info:
 
  * Version : 1.0
  * Demo application
 
 About application : 
-```
-WCity (world citiy info) is demo application with basic information about popular cities from 6 differente continents.
-```
+
+* WCity (world citiy info) is demo application with basic information about popular     cities from 6 differente continents.
+
 --------------------
 Android developer : Leo Paulišić
 
