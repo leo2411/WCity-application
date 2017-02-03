@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E4A70</color>
+    <color name="colorPrimaryDark">#1E4A70</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="drawer_menu_background">#ffffff</color>
+    <color name="scroll_tab_background">#ffffff</color>
+    <color name="drawer_menu_item_text_color">#000</color>
+    <color name="Country_names_color">#898989</color>
+    <color name="City_names_color">#000</color>
+    <color name="detailtext">#000000</color>
+    <color name="detail_text_level2">#8b8b8b</color>
+    <color name="city_name_details">#fff</color>
+    <color name="logobackground">#e2e2e2</color>
+</resources>

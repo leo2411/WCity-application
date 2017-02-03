@@ -1,0 +1,542 @@
+<resources>
+    <string name="app_name">WCity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open Navigation drawer</string>
+    <string name="drawer_close">Close Navigation drawer</string>
+    <string name="drawer_item1">Home</string>
+    <string name="drawer_item2">Bookmark</string>
+    <string name="drawer_item3">Search</string>
+    <string name="drawer_item4">App info</string>
+
+    <string name="AppInfotext">  WCity - World City Info\n App version : 1.0\n Made : Leo Paulisic</string>
+
+    //E U R O P A.....C I T Y S.....D E T A I L S
+
+
+    //Europa citys name
+    <string-array name="Ecity_name">
+        <item>LONDON</item>
+        <item>BERLIN</item>
+        <item>PRAGUE</item>
+        <item>MADRID</item>
+        <item>ROME</item>
+        <item>PARIS</item>
+        <item>MOSCOW</item>
+        <item>ISTANBUL</item>
+        <item>ATHENS</item>
+    </string-array>
+
+    //Europa country name
+    <string-array name="Ecountry_name">
+        <item>United Kingdom</item>
+        <item>Germany</item>
+        <item>Czech Republic</item>
+        <item>Spain</item>
+        <item>Italy</item>
+        <item>France</item>
+        <item>Russia</item>
+        <item>Turkey</item>
+        <item>Greece</item>
+    </string-array>
+
+    //Europa city population
+    <string-array name="Epopulation">
+        <item>8.674 Million</item>
+        <item>3.502 Million</item>
+        <item>1.247 Million</item>
+        <item>3.165 Million</item>
+        <item>2.627 Million</item>
+        <item>2.224 Million</item>
+        <item>11.920 Million</item>
+        <item>14.030 Million</item>
+        <item>664.046 Thousand</item>
+    </string-array>
+
+    //Europa city area
+    <string-array name="Earea">
+        <item>1.572 km<sup>2</sup></item>
+        <item>891 km<sup>2</sup></item>
+        <item>496 km<sup>2</sup></item>
+        <item>604 km<sup>2</sup></item>
+        <item>1.285 km<sup>2</sup></item>
+        <item>2.844 km<sup>2</sup></item>
+        <item>2.911 km<sup>2</sup></item>
+        <item>1.539 km<sup>2</sup></item>
+        <item>2.928 km<sup>2</sup></item>
+    </string-array>
+
+    //Europa city info
+    <string-array name="Einfo">
+        <item>London, the capital of England and the United Kingdom, was founded 2000 years ago.It is the largest city in Europe and located astride the famous river of Thames. This is the home for most of the international organizations and the city is headed by the Lord Mayor of London.Today London is not only the largest city but also one of the most visited thanks to its numerous famous attractions such as the Tower Bridge and the Big Ben.London is considered an expensive city in the world and even though its home for many foreign migrants, still keeping its traditional heritage and surrounding.</item>
+        <item>Built on sand on around the banks of the river Spree, Berlin has been one of Europe most influential economic, cultural and political centres.Modern Germany has only existed since 1990, after the Berlin Wall fell and East and West were reunified. Originally Germany was an area in Central Europe dominated by the Germanic tribe.Today Germany is the third biggest economy in the world and a leading member of the European union. It is also the top exporter of goods in the world. However it has the lowest GDP growth in Europe and its economy is undermined by the heavy subsidising from the West of the substantially poorer East, which has happened since reunification.</item>
+        <item>Prague is the capital city and largest city of the Czech Republic. It is one of the largest cities of Central Europe and has served as the capital of the historic region of Bohemia for centuries. The city is famous for its  bridges, cathedrals, gold-tipped towers and church domes, has been mirrored in the surface of the swan-filled Vltava River for more than ten centuries.It is regarded by many as one of Europe most charming and beautiful cities, Prague has become the most popular travel destination in Central Europe along with Vienna and Krakow. Millions of tourists visit the city every year.</item>
+        <item>Madrid is the capital city of Spain, located right in the centre of the Iberian Peninsula. Its geographical location grants good communications of the city with other Spanish regions. As capital of the country, it is the seat to the Spanish government institutions and the city of residence of Spanish Royal family.Madrid is also the largest Spanish city with more than 3 million inhabitants in the metropolitan area. You will find in the city a rich mixture of cultures, since besides the native madrileños people from other countries and especially from Latin America have made of Madrid their second hometown.Madrid is indeed a very active city with a bustling nightlife, busy business centres and lively streets either by day or night.</item>
+        <item>According to legend, the city of Rome was founded by Romulus and Remus, twin sons of the god Mars, who were left to die as babies and were rescued and suckled by a she-wolf. Whatever its true origins, it seems to have been established sometime around the 8th century BC. Since then, Rome has played a dominent role in history for over two and a half thousand years. It was the capital of the Roman Kingdom. Rome is truly one of the great cities of the world. Rich in history, beauty and culture, it has been an inspiration to countless generations of visitors. Even now, after nearly three thousand years, its appeal and charm. Every year, tourists continue to flock to Rome in their millions, you can be sure that they will not be disappointed.</item>
+        <item>Paris can be seen as thé most interesting city of Europe and probably even as one of the most amazing city worldwide. People from all over the world travel to Paris to discover and experience this fairy-like city. Paris is the city of love, inspiration, art and fashion. The night scene, the Eiffel tower and the warm atmosphere will make you feel directly at home. Paris has a lot of interesting architecture and museums to offer, and is also a Walhalla for shopaholics. Many of the famous boulevards and city centre buildings where transformed by Haussmann and Napolean III (Charles Louis Napoléon Bonaparte). The streets where made much wider, places and squares where built and the buildings completely rebuilt.  A city as Paris is one that everyone should visit and experience.</item>
+        <item>The real age of Moscow is not known. There are some myths saying that the foundation of Moscow took place in ancient times. Moscow is the capital of Russia, the largest city in the country and Europe, and one of the largest cities in the world. Moscow refers to global cities having a great influence on the world because of its high economic level and population. It is the main transport hub of Russia, its political, economic, cultural, and scientific center.Several matches of FIFA World Cup 2018 will be held in Moscow. Moscow is one of the largest cultural and tourist centers of Europe and the world. There are a lot of different places of interest in the city - various historical, cultural, and architectural sites as well as entertainment centers. Moscow has a decent number of hotels including the ones of the world famous hotel brands known for their quality and ambiance.</item>
+        <item>Istanbul, a fascinating city built on two Continents, divided by the Bosphorus Strait. This is one of the greatest cities in the world where you can see a modern western city combined with a traditional eastern city, it is a melting pot of many civilizations and different people. Istanbul was also announced by the European Union as the 2010 European Capital of Culture.From the foundation of Byzantium in the 7th century BC until today, Istanbul held always an important role in the history of humanity in this part of the world. Everybody wanted to gain control of this area because of its strategic location; Empires were born here on the ashes of previous ones.Since the Republic in 1923, Istanbul continued to grow and today it boosted its population over 14 million people living in this spread out city. This makes Istanbul the largest city of Turkey and one of the biggest cities in the world.</item>
+        <item>Athens. The city with the most glorious history in the world, a city worshipped by gods and people, a magical city. The enchanting capital of Greece has always been a birthplace for civilization. It is the city where democracy was born and most of the wise men of ancient times. The most important civilization of ancient world flourished in Athens and relives through some of the worlds most formidable edifices. Who has not heard of the Acropolis of Athens? Photos and history of the most famous archaeological monument in Europe have made the world tour causing feelings of admiration by thousands of people. Acropolis is nominated to be one of the 7 wonders of modern world. In fact the trademark of Athens is one of the favorites.</item>
+    </string-array>
+
+    //Europa citys popular place name icon 1
+    <string-array name="Eicon1">
+        <item> London Eye \n<FONT style="bold"> Lambeth London SE1 7PB \n United Kingdom</FONT></item>
+        <item> Brandenburg Gate \n<font fgcolor="detailtext"> Pariser Platz 10117 \n Germany</font></item>
+        <item> Charles Bridge \n<font fgcolor="detailtext"> Karluv most 110 00 \n Czech Republic</font></item>
+        <item> Palacio Real \n<font fgcolor="detailtext"> Calle de Bailén 28071 \n Spain</font></item>
+        <item> Colosseum \n<font fgcolor="detailtext"> Piazza del Colosseo 1 00184 \n Italy</font></item>
+        <item> Eiffel Tower \n<font fgcolor="detailtext"> Champ de Mars 5 Avenue 75007 \n France</font></item>
+        <item> Moscow Kremlin \n<font fgcolor="detailtext"> Moscow 103073 \n Russia</font></item>
+        <item> Aya Sofya \n<font fgcolor="detailtext"> Sultanahmet Mh. Ayasofya Meydanı 34122 \n Turkey</font></item>
+        <item> Acropolis of Athens \n<font fgcolor="detailtext"> Athena 105 58 \n Greece</font></item>
+    </string-array>
+
+    //Europa citys popular place name icon 2
+    <string-array name="Eicon2">
+        <item> Buckingham Palace \n<font fgcolor="detailtext"> London SW1A 1AA \n United Kingdom</font></item>
+        <item> Unter den Linden \n<font fgcolor="detailtext"> Unter den Linden 10117 \n Germany</font></item>
+        <item> Prague Castle \n<font fgcolor="detailtext"> 119 08 Prague \n Czech Republic</font></item>
+        <item> Retiro Park \n<font fgcolor="detailtext">  Plaza de la Independencia 7 28001 \n Spain</font></item>
+        <item> Fontana di Trevi \n<font fgcolor="detailtext"> Piazza di Trevi 00187 \n Italy</font></item>
+        <item> Notre Dame Cathedral \n<font fgcolor="detailtext"> Pl. Jean-Paul II 75004 \n France</font></item>
+        <item> Red Square \n<font fgcolor="detailtext"> Red Square \n Russia</font></item>
+        <item> Blue Mosque \n<font fgcolor="detailtext"> Sultanahmet Mh.At Meydanı No:7 34122 \n Turkey</font></item>
+        <item> Parthenon \n<font fgcolor="detailtext"> Athena 105 58 \n Greece</font></item>
+    </string-array>
+
+    //Europa citys popular place name icon 3
+    <string-array name="Eicon3">
+        <item> Hyde Park \n<font fgcolor="#fff"> London SW1A 1AA \n United Kingdom</font></item>
+        <item> The Gendarmenmarkt \n<font fgcolor="city_name_details"> Gendarmenmarkt 10117 \n Germany</font></item>
+        <item> Prague astronomical clock \n<font fgcolor="city_name_details"> Staroměstské nám 1 110 00 \n Czech Republic</font></item>
+        <item> Gran Via \n<font fgcolor="city_name_details"> Gran Via venue \n Spain</font></item>
+        <item> Papal Basilica of St. Peter \n<font fgcolor="city_name_details"> Piazza San Pietro 00120 \n Vaticano </font></item>
+        <item> Louvre Museum \n<font fgcolor="city_name_details"> 75001 Paris \n France</font></item>
+        <item> Lenin Mausoleum \n<font fgcolor="city_name_details"> Red Square \n Russia</font></item>
+        <item> Hippodrome of Constantinople \n<font fgcolor="city_name_details"> Binbirdirek Sultan Ahmet Parkı No:2 34122 \n Turkey</font></item>
+        <item> Panathenaic Stadium \n<font fgcolor="city_name_details"> Leof.Vasileos Konstantinou Athina 116 35 \n Greece</font></item>
+    </string-array>
+
+    //Europa citys popular place name icon 4
+    <string-array name="Eicon4">
+        <item> Tower Bridge \n<font fgcolor="#fff"> London SE1 2UP \n United Kingdom</font></item>
+        <item> Reichstag \n<font fgcolor="city_name_details"> Platz der Republik 1 11011 \n Germany</font></item>
+        <item> St. Vitus Cathedral \n<font fgcolor="city_name_details"> III. nádvoří 48/2 119 01 \n Czech Republic</font></item>
+        <item> Plaza Mayor \n<font fgcolor="city_name_details"> Plaza Mayor 28012 \n Spain</font></item>
+        <item> Forum Romanum \n<font fgcolor="city_name_details"> Via della Salara Vecchia 5/6 00186 \n Italy</font></item>
+        <item> Palace of Versailles \n<font fgcolor="city_name_details"> Place d Armes 78000 \n France</font></item>
+        <item> Gorky Central Park \n<font fgcolor="city_name_details"> Krimsky Val 9 \n Russia</font></item>
+        <item> Topkapı Palace \n<font fgcolor="city_name_details"> Cankurtaran Mh. 34122 \n Turkey</font></item>
+        <item> Acropolis Museum \n<font fgcolor="city_name_details"> Dionysiou Areopagitou 15 Athina 117 4 \n Greece</font></item>
+    </string-array>
+
+
+    //A F R I C A.....C I T Y S......D E T A I L S
+
+
+    //Africa citys name
+    <string-array name="AFcity_name">
+        <item>CAPE TOWN</item>
+        <item>TUNIS</item>
+        <item>CASABLANCA</item>
+        <item>CAIRO</item>
+    </string-array>
+
+    //Africa country name
+    <string-array name="AFcountry_name">
+        <item>South Africa</item>
+        <item>Tunisia</item>
+        <item>Marocco</item>
+        <item>Egypt</item>
+    </string-array>
+
+    //Africa city population
+    <string-array name="AFpopulation">
+        <item>433.688 Thousand</item>
+        <item>1.056 Million</item>
+        <item>3.359.818 Million</item>
+        <item>10.230.350 Million</item>
+    </string-array>
+
+    //Africa city area
+    <string-array name="AFarea">
+        <item>400 km<sup>2</sup></item>
+        <item>212 km<sup>2</sup></item>
+        <item>386 km<sup>2</sup></item>
+        <item>528 km<sup>2</sup></item>
+    </string-array>
+
+    //Africa city info
+    <string-array name="AFinfo">
+        <item>The City of Cape Town is a large urban area with a high population density, an intense movement of people, goods and services, extensive development and multiple business districts and industrial areas. It represents centres of economic activity with complex and diverse economies, a single area for which integrated development planning and strong interdependent social and economic linkages between its constituent units is desirable. The City of Cape Town includes the Cape Metropolitan Council, Blaauwberg, Cape Town CBD, Helderberg, Oostenberg, South Peninsula and Tygerberg.</item>
+        <item>Located on the Mediterranean coast but lacking much in the way of beaches, Tunis has been spared the onslaught of package tourism in the resorts to the north and south.Tunis is divided into the old city, known as the medina, and the new city, or ville nouvelle in French. Ave Habib Bourguiba is the large avenue running through the new city from the clock tower to the Cathedral of St Vincent de Paul. It then turns into Ave de France, which runs for a few blocks until ending at the Place de la Victoire and the Port de France, a large free-standing gate that used to be the entrance to the medina. This can be a good landmark for taxi drivers, as some of the smaller streets nearby arent sure to be known by name.The medina tangled streets are crammed with people buying and selling goods, and the air is thick with the scent of exotic spices. The infectious chaos of the city is meant to be savored, and most visitors leave reluctantly, longing for more of the atmospheric and enchanting capital.</item>
+        <item>Casablanca, almost universally referred to as Casa, may be the cosmopolitan, industrial and economic heart of Morocco (and its largest city), but it is one of the less endearing in the country. With a small, unassuming medina and a traffic-congested ville nouvelle, travellers arriving via Casablanca may be tempted to find the first train out to nearby Rabat. The awe-inspiring Hassan II Mosque and happening nightlife, however, are worth at least a day of your Moroccan itinerary.</item>
+        <item>The capital of Egypt and the largest city in Africa, the name means the victorious city. It is located on both banks of the River Nile near the head of the rivers delta in northern Egypt and has been settled for more than 6000 years, serving as the capital of numerous Egyptian civilizations. Cairo is known locally as Misr, the Arabic name for Egypt, because of its centrality in Egyptian life.</item>
+    </string-array>
+
+    //Africa citys popular place name icon 1
+    <string-array name="AFicon1">
+        <item> Cape of Good Hope \n<FONT style="bold"> Cape Point Rd 8001 \n South Africa</FONT></item>
+        <item> Carthage \n<font fgcolor="detailtext"> Tunis \n Tunisia</font></item>
+        <item> Central Market \n<font fgcolor="detailtext"> Rue Allal Ben Abdallah \n Marocco</font></item>
+        <item> Pyramids of Giza \n<font fgcolor="detailtext"> Al Haram, Nazlet El-Semman, Al Haram \n Egypt</font></item>
+    </string-array>
+
+    //Africa citys popular place name icon 2
+    <string-array name="AFicon2">
+        <item> Table Mountain National Park \n<font fgcolor="detailtext"> Table Mountain 7995 \n South Africa</font></item>
+        <item> Sidi Bou Said \n<font fgcolor="detailtext"> Unitary Semi-Presidential Republic \n Tunisia</font></item>
+        <item> Hassan II Mosque \n<font fgcolor="detailtext"> Boulevard Sidi Mohammed ben Abdullah \n Marocco</font></item>
+        <item> Egyptian Museum \n<font fgcolor="detailtext"> Tahrir Square, Meret Basha, Qasr an Nile \n Egypt</font></item>
+    </string-array>
+
+    //Africa citys popular place name icon 3
+    <string-array name="AFicon3">
+        <item> Kirstenbosch National Botanical Garden \n<font fgcolor="#fff"> Rhodes Dr,Newlands 7735 \n South Africa</font></item>
+        <item> Medina of Tunis \n<font fgcolor="city_name_details"> Medina \n Tunisia</font></item>
+        <item> Medina \n<font fgcolor="city_name_details"> Place des Nations Unies \n Marocco</font></item>
+        <item> Khan el-Khalili \n<font fgcolor="city_name_details"> El-Gamaleya, Qism El-Gamaleya \n Egypt</font></item>
+    </string-array>
+
+    //Africa citys popular place name icon 4
+    <string-array name="AFicon4">
+        <item> Table Mountain \n<font fgcolor="#fff"> Table Mountain 7995 \n South Africa</font></item>
+        <item> Djerba \n<font fgcolor="city_name_details"> Djerba \n Tunisia</font></item>
+        <item> Place Mohamed V \n<font fgcolor="city_name_details"> Avenue Hassan II \n Marocco</font></item>
+        <item> Mosque of Muhammad Ali \n<font fgcolor="city_name_details"> Al Abageyah, Qism El-Khalifa \n Egypt</font></item>
+    </string-array>
+
+
+    //A S I A.....C I T Y S......D E T A I L S
+
+
+    //Asia citys name
+    <string-array name="AScity_name">
+        <item>TOKYO</item>
+        <item>MUMBAI</item>
+        <item>BANGKOK</item>
+        <item>SHANGHAI</item>
+        <item>HONG KONG</item>
+        <item>KUALA LUMPUR</item>
+    </string-array>
+
+    //Asia country name
+    <string-array name="AScountry_name">
+        <item>Japan</item>
+        <item>India</item>
+        <item>Thailand</item>
+        <item>Republic of China</item>
+        <item>Republic of China</item>
+        <item>Malaysia</item>
+    </string-array>
+
+    //Asia city population
+    <string-array name="ASpopulation">
+        <item>13.62 Million</item>
+        <item>11.98 Million</item>
+        <item>6.355 Million</item>
+        <item>14.35 Million</item>
+        <item>7.188 Million</item>
+        <item>1.768 Million</item>
+    </string-array>
+
+    //Asia city area
+    <string-array name="ASarea">
+        <item>2.188 km<sup>2</sup></item>
+        <item>603 km<sup>2</sup></item>
+        <item>1.569 km<sup>2</sup></item>
+        <item>7.037 km<sup>2</sup></item>
+        <item>1.104 km<sup>2</sup></item>
+        <item>243 km<sup>2</sup></item>
+    </string-array>
+
+    //Asia city info
+    <string-array name="ASinfo">
+        <item>Tokyo is Japan capital and the worlds most populous metropolis. It is also one of Japans 47 prefectures, consisting of 23 central city wards and multiple cities, towns and villages west of the city center.Tokyo offers a seemingly unlimited choice of shopping, entertainment, culture and dining to its visitors. The city history can be appreciated in districts such as Asakusa, and in many excellent museums, historic temples and gardens. Contrary to common perception, Tokyo also offers a number of attractive green spaces in the city center and within relatively short train rides at its outskirts. </item>
+        <item>Mumbai city is the capital of Maharashtra. Previously known as Bombay, it one of the world largest and most densely populated areas. It lies on the west coast and is known for its deep natural harbor. The neighboring urban areas - Navi Mumbai and Thane - are part of Mumbai.It is also known as the financial capital of India and is home to many top domestic and international companies and financial institutions which have their headquarters here. It was honored with the Alpha World City title in 2009. The Bombay Stock Exchange is one of the largest in the world.Also referred to as the entertainment capital of India, Mumbai is home to Bollywood which is one of the biggest film industries in the world and employs thousands of people.</item>
+        <item>Bangkok, The City of Angels in Thai, is the capital city of Thailand. Bangkok is the hub for most of the commercial and economical activities of the Kingdom. At the same time, the City is very famous and appreciated by visitors for its versatility and multiple points of interests. From temples, the Grand Palace, all the way over the some of Asia largest shopping centers and the largest outdoor market of Asia, Bangkok definitely has what it takes to entertain visitors from all origins, either first time or return travelers. Whilst Taxi fares are very reasonable, most of the sightseeing can comfortably be reached by Skytrain or Underground train. Aside of the sightseeing and shopping, Bangkok has developed into a magnet for food lovers of all origins. </item>
+        <item>Shanghai, Hu for short, is a renowned international metropolis drawing more and more attention from all over the world. Situated on the estuary of Yangtze River, it serves as the most influential economic, financial, international trade, and cultural center in East China. Also it is a popular travel destination for visitors to sense the pulsating development of the country.In addition to its modernization, the city multicultural flair endows it with a unique glamour. Here, one finds the perfect blend of cultures, the modern and the traditional , and the western and the oriental. New skyscrapers and old Shikumen together draw the skyline of the city. Western customs and Chinese traditions intertwined and formed the city culture, making a visitor stay memorable.</item>
+        <item>Hong Kong has many differences from the mainland China such as having different economic systems as well as political systems making it almost an independent country by itself. There are currently about seven million people living in the Hong Kong area making it one of the most densely populated cities in the world.Hong Kong uses its own currency and has low taxes and has an excellent trading economy being the twelfth largest in the world. Part of this is due to its good Geographic location and easily accessible human labor.</item>
+        <item>Kuala Lumpur, also known as KL is the capital of Malaysia. The words Kuala Lumpur literally mean Muddy Confluence. The metropolis got this nickname because it was founded near the place where the rivers Klang and Gombak intersect. Over the years Kuala Lumpur grew into an important Asian city.Nowadays, the city truly is a metropolis with a big central business district with many tall skyscrapers, many international renowned hotels and numerous luxurious shopping malls. It lies approximately 40 kilometers from the coast, within the federal state of Selangor.Citizens of Kuala Lumpur are earning more and more. The overall lifestyle is improving by the day as personal wealth is growing in a rapid pace.  </item>
+    </string-array>
+
+    //Asia citys popular place name icon 1
+    <string-array name="ASicon1">
+        <item> Meiji Shrine \n<FONT style="bold"> Yoyogikamizonocho, Shibuya \n Japan</FONT></item>
+        <item> Gateway of India \n<font fgcolor="detailtext"> Apollo Bandar, Colaba, Mumbai 400001 \n India</font></item>
+        <item> Grand Palace \n<font fgcolor="detailtext"> Na Phra Lan Rd, Phra Nakhon \n Thailand</font></item>
+        <item> Yu Garden \n<font fgcolor="detailtext"> 218 Anren St, Huangpu Qu \n Republic of China</font></item>
+        <item> Victoria Peak \n<font fgcolor="#fff"> Victoria Peak \n Republic of China</font></item>
+        <item> Petronas Twin Towers \n<font fgcolor="#fff"> Kuala Lumpur City Centre, 50088 \n Malaysia</font></item>
+    </string-array>
+
+    //Asia citys popular place name icon 2
+    <string-array name="ASicon2">
+        <item> Sensō-ji \n<font fgcolor="detailtext"> 2 Chome-3-1 Asakusa, Taito \n Japan</font></item>
+        <item> Elephanta Caves \n<font fgcolor="detailtext"> Gharapuri, Maharashtra 400094 \n India</font></item>
+        <item> Wat Arun \n<font fgcolor="detailtext"> 158 Wang Doem Rd, Khwaeng Wat Arun \n Thailand</font></item>
+        <item> Oriental Pearl Tower \n<font fgcolor="detailtext"> 1 Century Ave, LuJiaZui, Pudong Xinqu \n Republic of China</font></item>
+        <item> Hong Kong Disneyland \n<font fgcolor="#fff"> Lantau Island \n Republic of China</font></item>
+        <item> Bukit Bintang \n<font fgcolor="#fff"> Bukit Bintang \n Malaysia</font></item>
+    </string-array>
+
+    //Asia citys popular place name icon 3
+    <string-array name="ASicon3">
+        <item> Shinjuku Gyoen \n<font fgcolor="#fff"> 11 Naitomachi, Shinjuku \n Japan</font></item>
+        <item> Kanheri Caves \n<font fgcolor="city_name_details"> Mumbai, Maharashtra 400101 \n India</font></item>
+        <item> Wat Phra Kaew \n<font fgcolor="city_name_details"> Borom Maha Ratchawang,10200 \n Thailand</font></item>
+        <item> Shanghai World Financial Center \n<font fgcolor="city_name_details"> 100 Century Ave, LuJiaZui, Pudong Xinqu \n Republic of China</font></item>
+        <item> Tian Tan Buddha \n<font fgcolor="#fff"> Ngong Ping Rd, Lantau Island \n Republic of China</font></item>
+        <item> Kuala Lumpur Bird Park \n<font fgcolor="#fff"> Jalan Cenderawasih, Tasik Perdana, 50480 \n Malaysia</font></item>
+    </string-array>
+
+    //Asia citys popular place name icon 4
+    <string-array name="ASicon4">
+        <item> Roppongi \n<font fgcolor="#fff"> Roppongi \n Japan</font></item>
+        <item> Chhatrapati Shivaji Terminus \n<font fgcolor="city_name_details"> Chhatrapati Shivaji Terminus Area, Fort \n India</font></item>
+        <item> Jim Thompson House \n<font fgcolor="city_name_details"> Rama I Rd, Khwaeng Wang Mai \n Thailand</font></item>
+        <item> Jin Mao Tower \n<font fgcolor="city_name_details"> 88 Century Ave, LuJiaZui, Pudong Xinqu \n Republic of China</font></item>
+        <item> Ocean Park Hong Kong \n<font fgcolor="#fff"> Ocean Park Hong Kong \n Republic of China</font></item>
+        <item> Kuala Lumpur Tower \n<font fgcolor="#fff"> Jalan P Ramlee, Kuala Lumpur, 50250 \n Malaysia</font></item>
+    </string-array>
+
+
+    //A U S T R A L I A.....C I T Y S......D E T A I L S
+
+
+    //Australia citys name
+    <string-array name="AUcity_name">
+        <item>SYDNEY</item>
+        <item>MELBOURNE</item>
+        <item>BRISBANE</item>
+    </string-array>
+
+    //Australia country name
+    <string-array name="AUcountry_name">
+        <item>Australia</item>
+        <item>Australia</item>
+        <item>Australia</item>
+    </string-array>
+
+    //Australia city population
+    <string-array name="AUpopulation">
+        <item>4.293 Million</item>
+        <item>4.529.500 Million</item>
+        <item>2.099 Million</item>
+    </string-array>
+
+    //Australia city area
+    <string-array name="AUarea">
+        <item>12.368 km<sup>2</sup></item>
+        <item>9.990 km<sup>2</sup></item>
+        <item>5.950 km<sup>2</sup></item>
+    </string-array>
+
+    //Australia city info
+    <string-array name="AUinfo">
+        <item>Sydney, the capital of New South Wales, Australia. It is Australia oldest and largest city with a population of around 4 million. Sydney is built around a huge harbour and hosts many tourist attractions as well as a number of beaches, bays and a couple of national parks.Sydney was first visited by the British in 1770 when Captain James Cook and Joseph Banks sailed the Endeavor into Botany Bay.Sydney offers a whole range of great tourist attractions from the world famous Sydney Opera House and Sydney Harbour Bridge to the sandy shores of Bondi Beach. A great way to get to see as much of Sydney as possible is to take part in one of the many Sydney Tours.</item>
+        <item>Melbourne is Victoria capital city and the business, administrative, cultural and recreational hub of the state. Melbourne population is made up of many groups of people of all ages and from many different cultures. Residents include young professionals, international students and older couples looking to enjoy everything the city has to offer.The City of Melbourne works with other local councils and the Victorian Government to ensure that Melbourne is one of the safest, healthiest and cleanest cities in the world. It supports Melbourne position as Australia pre-eminent centre for arts and culture, education, dining and shopping.</item>
+        <item>Brisbane, the capital of Queensland, is a cosmopolitan and lively city that is home to many different types of scenery, including skyscrapers, parkland and even an artificial beach. Brisbane is a river city, although close to the coast, with Brisbane River running through it.It is surrounded by hills and full of bridges. Brisbane also gives easy access to a number of attractions as well as the Gold Coast and the Sunshine Coast.Brisbane has a number of Theatres including the Lyric Theatre, Cremorne Theatre and the Playhouse Theatre.Brisbane is a great place to cycle, with wonderful tracks near and along the river. If you get tired along the way you can always hop on a bus or the City Cat.</item>
+    </string-array>
+
+    //Australia citys popular place name icon 1
+    <string-array name="AUicon1">
+        <item> The Sydney Opera House \n<FONT style="bold"> Bennelong Point, Sydney NSW 2000 \n Australia</FONT></item>
+        <item> Great Ocean Road \n<font fgcolor="detailtext"> Great Ocean Road \n Australia</font></item>
+        <item> Lone Pine Koala Sanctuary \n<font fgcolor="detailtext"> 708 Jesmond Rd, Fig Tree Pocke \n Australia</font></item>
+    </string-array>
+
+    //Australia citys popular place name icon 2
+    <string-array name="AUicon2">
+        <item> Sydney Harbour Bridge \n<font fgcolor="detailtext"> Sydney Harbour Bridge, Sydney NSW \n Australia</font></item>
+        <item> Queen Victoria Market \n<font fgcolor="detailtext"> 513 Elizabeth St, Melbourne \n Australia</font></item>
+        <item> Story Bridge \n<font fgcolor="detailtext"> State Route 15, New Farm QLD 4169 \n Australia</font></item>
+    </string-array>
+
+    //Australia citys popular place name icon 3
+    <string-array name="AUicon3">
+        <item> The Rocks \n<font fgcolor="#fff"> The Rocks, Sydney NSW \n Australia</font></item>
+        <item> Federation Square \n<font fgcolor="city_name_details"> Swanston St and Flinders St, Melbourne \n Australia</font></item>
+        <item> Queensland Gallery of Modern Art \n<font fgcolor="city_name_details"> Stanley Pl, South Brisbane \n Australia</font></item>
+    </string-array>
+
+    //Australia citys popular place name icon 4
+    <string-array name="AUicon4">
+        <item> Sea Life Sydney Aquarium \n<font fgcolor="#fff"> 1-5 Wheat Rd, Sydney NSW 2000 \n Australia</font></item>
+        <item> Royal Botanic Gardens, Melbourne \n<font fgcolor="city_name_details"> Birdwood Ave, South Yarra VIC 3141 \n Australia</font></item>
+        <item> City Botanic Gardens \n<font fgcolor="city_name_details"> Alice St, Brisbane City \n Australia</font></item>
+    </string-array>
+
+
+    //S O U T H A M E R I C A.....C I T Y S......D E T A I L S
+
+
+    //SouthAmerica citys name
+    <string-array name="AMScity_name">
+        <item>BUENOS AIRES</item>
+        <item>RIO DE JANEIRO</item>
+        <item>LIMA</item>
+        <item>SAO PAULO</item>
+        <item>MONTEVIDEO</item>
+    </string-array>
+
+    //SouthAmerica country name
+    <string-array name="AMScountry_name">
+        <item>Argentina</item>
+        <item>Brasil</item>
+        <item>Peru</item>
+        <item>Brasil</item>
+        <item>Uruguay</item>
+    </string-array>
+
+    //SouthAmerica city population
+    <string-array name="AMSpopulation">
+        <item>2.965 Million</item>
+        <item>6.32 Million</item>
+        <item>10.853 Million</item>
+        <item>12.04 Million</item>
+        <item>1.305 Million</item>
+    </string-array>
+
+    //SouthAmerica city area
+    <string-array name="AMSarea">
+        <item>203 km<sup>2</sup></item>
+        <item>1.221 km<sup>2</sup></item>
+        <item>2.672 km<sup>2</sup></item>
+        <item>1.521 km<sup>2</sup></item>
+        <item>200 km<sup>2</sup></item>
+    </string-array>
+
+    //SouthAmerica city info
+    <string-array name="AMSinfo">
+        <item>Buenos Aires, city and capital of Argentina. The city is coextensive with the Federal District and is situated on the shore of the Río de la Plata, from the Atlantic Ocean. Buenos Aires is one of Latin America most important ports and most populous cities, as well as the national centre of commerce, industry, politics, culture, and technology. According to tradition, Spanish colonizer Pedro de Mendoza established the first settlement there.This grandiose city with wide avenues and a vibrant cosmopolitan flair is more generally European than Latin American in character. </item>
+        <item>Rio de Janeiro is the Marvelous City and Brazil most famous destination with attractions like the Christ Statue, Sugar Loaf and Copacabana and Ipanema Beach.Rio de Janeiro is often called the Marvellous City by its inhabitants, the Cariocas. It is indeed one of the most beautiful and exciting cities in the world. Uniquely situated on a narrow strip of land between the green mountains and the deep blue sea, it is surrounded by granite based mountains, coves and white sand beaches. The most famous coastal mountain is the Pao de Acucar, which has wonderful views of the city, the bay, and the Corcovado.When one thinks of Rio de Janeiro, beautiful beaches, carnival, and soccer instantly spring to mind. These are all an integral part of Rio vibrant culture, and make this city one of the most exciting and interesting places to visit in Brazil. Rio is blessed with stunning natural beauty and a year-round pleasant climate.</item>
+        <item>In the north is the city of Caral, the oldest civilization of America, and to the south is the Archaeological Complex of Pachacamac. Lima history predates the colonial presence in the country. The establishment of the viceroyalty transformed the city into the main political and administrative center of South America. During this period, significant churches, monasteries, mansions and balconies were built. The arrival of modernity didnt transform the historic center, which is recognized as a World Heritage Site.</item>
+        <item>São Paulo is Brazil largest city and the world seventh largest. This makes it a significant destination for business and pleasure travellers around the world who want to get a taste of Brazil and South America. The city of São Paulo is capital to the state of the same name. It is particularly rich in historical, political and cultural value, giving visitors an authentic, memorable experience of a fascinating country.Because of its heritage and history, São Paulo is home to a number of statues, parks, museums and galleries. These create the perfect ambience in which to wander, while taking in the sights and sounds of this destination.</item>
+        <item>Montevideo was founded in 1726 by Bruno Mauricio de Zabala, governor of Buenos Aires, to counteract the Portuguese advance into the area from Brazil. During its early years, Montevideo was mostly a Spanish garrison town. Trade expanded toward the end of the colonial period, and Montevideo merchants played an important part in securing Uruguayan independence.Montevideo is the pleasant capital city of Uruguay, a country in South America. It is situated on the east bank of the Rio de la Plata and is the southernmost capital city in South America.</item>
+    </string-array>
+
+    //SouthAmerica citys popular place name icon 1
+    <string-array name="AMSicon1">
+        <item> Plaza de Mayo \n<FONT style="bold"> Av.Hipólito Yrigoyen, 1087 CABA \n Argentina</FONT></item>
+        <item> Copacabana \n<font fgcolor="detailtext"> Copacabana \n Brasil</font></item>
+        <item> Plaza Mayor \n<font fgcolor="detailtext"> Plaza Mayor \n Peru</font></item>
+        <item> Ibirapuera Park \n<font fgcolor="detailtext"> Av. Pedro Álvares Cabral-Vila Mariana \n Brasil</font></item>
+        <item> Palacio Salvo \n<font fgcolor="detailtext"> Caminito \n Uruguay</font></item>
+    </string-array>
+
+    //SouthAmerica citys popular place name icon 2
+    <string-array name="AMSicon2">
+        <item> Caminito \n<font fgcolor="detailtext"> Caminito \n Argentina</font></item>
+        <item> O Cristo Redentor \n<font fgcolor="detailtext"> Parque Nacional da Tijuca \n Brasil</font></item>
+        <item> Larco Museum \n<font fgcolor="detailtext"> Av. Simón Bolivar 1515 \n Peru</font></item>
+        <item> Pinacoteca do Estado \n<font fgcolor="detailtext"> Praça da Luz, 2 - Luz \n Brasil</font></item>
+        <item> Teatro Solís \n<font fgcolor="detailtext"> 11000 Montevideo \n Uruguay</font></item>
+    </string-array>
+
+    //SouthAmerica citys popular place name icon 3
+    <string-array name="AMSicon3">
+        <item> El Obelisco \n<font fgcolor="#fff"> Av. 9 de Julio, 1043 CABA \n Argentina</font></item>
+        <item> Sugarloaf Mountain \n<font fgcolor="city_name_details"> Sugarloaf Mountain \n Brasil</font></item>
+        <item> Monastery of San Francisco \n<font fgcolor="city_name_details"> Jirón Lampa \n Peru</font></item>
+        <item> São Paulo Museum of Art \n<font fgcolor="city_name_details"> Av. Paulista, 1578-Bela Vista \n Brasil</font></item>
+        <item> Pocitos \n<font fgcolor="detailtext"> Pocitos \n Uruguay</font></item>
+    </string-array>
+
+    //SouthAmerica citys popular place name icon 4
+    <string-array name="AMSicon4">
+        <item> Carlos Thays Botanical Garden \n<font fgcolor="#fff"> 1425 Autonomous \n Argentina</font></item>
+        <item> Ipanema \n<font fgcolor="city_name_details"> Ipanema \n Brasil</font></item>
+        <item> Government Palace \n<font fgcolor="city_name_details"> Jirón de la Unión \n Peru</font></item>
+        <item> São Paulo Cathedral \n<font fgcolor="city_name_details"> Praça da Sé - Sé \n Brasil</font></item>
+        <item> Plaza Independencia \n<font fgcolor="detailtext"> Plaza Independencia,11000 \n Uruguay</font></item>
+    </string-array>
+
+
+    // N O R T H A M E R I C A.....C I T Y S......D E T A I L S
+
+
+    //NorthAmerica citys name
+    <string-array name="ANcity_name">
+        <item>NEW YORK</item>
+        <item>MEXICO CITY</item>
+        <item>HAVANA</item>
+        <item>TORONTO</item>
+        <item>LOS ANGELES</item>
+    </string-array>
+
+    //NorthAmerica country name
+    <string-array name="ANcountry_name">
+        <item>United States</item>
+        <item>Mexico</item>
+        <item>Cuba</item>
+        <item>Canada</item>
+        <item>United States</item>
+    </string-array>
+
+    //NorthAmerica city population
+    <string-array name="ANpopulation">
+        <item>8.406 Million</item>
+        <item>8.851 Million</item>
+        <item>2.105 Million</item>
+        <item>2.615 Million</item>
+        <item>3.884 Million</item>
+    </string-array>
+
+    //NorthAmerica city area
+    <string-array name="ANarea">
+        <item>789 km<sup>2</sup></item>
+        <item>1.485 km<sup>2</sup></item>
+        <item>728 km<sup>2</sup></item>
+        <item>630 km<sup>2</sup></item>
+        <item>1.302 km<sup>2</sup></item>
+    </string-array>
+
+    //NorthAmerica city info
+    <string-array name="ANinfo">
+        <item>New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.Besides the architectural delights, New York is an urban jungle that has everything to offer to visitors. The city is home to numerous museums, parks, trendy neighborhoods and shopping streets.</item>
+        <item>The capital of México, very old, the worlds largest city, the financial, political and cultural center of México, the nightlife capital of México, one of the worlds great cities, huge, one of the world most difficult cities to drive in, filled with exciting things to see and do, sinking, an energetic metropolis or just an incredible place to visit. </item>
+        <item>The city is located on La Habana (Havana) Bay on the island north coast. It is the largest city in the Caribbean region and has one of the great treasuries of historic colonial preserves in the Western Hemisphere. Prior to 1959, when Fidel Castro came to power, it was a mecca for tourists from the United States, who were drawn by the city’s many attractions, which included climate and nightlife in addition to history. During the following years, however, despite its continued importance as the island major economic hub, Havana lost much of its lustre, because Castro socialist government redirected the country resources primarily toward the improvement of conditions in rural Cuba. </item>
+        <item>Toronto is Canada largest city, the fourth largest in North America, and home to a diverse population of about 2.8 million people. Its a global centre for business, finance, arts and culture and is consistently ranked one of the world most livable cities.</item>
+        <item>City of Los Angeles and often known by its initials L.A., is the second-most populous city in the United States (after New York City), the most populous city in California and the county seat of Los Angeles County. Situated in Southern California, Los Angeles is known for its mediterranean climate, ethnic diversity, sprawling metropolis, and as a major center of the American entertainment industry. Los Angeles lies in a large coastal basin surrounded on three sides by mountains reaching up to and over 10,000 feet (3,000 m).</item>
+    </string-array>
+
+    //NorthAmerica citys popular place name icon 1
+    <string-array name="ANicon1">
+        <item> Central Park \n<FONT style="bold"> New York, 10024 \n Unite States</FONT></item>
+        <item> Chapultepec \n<font fgcolor="detailtext"> Bosque de Chapultepec I Secc \n Mexico</font></item>
+        <item> La Habana Vieja \n<font fgcolor="detailtext"> La Habana Vieja \n Cuba</font></item>
+        <item> Royal Ontario Museum \n 100 Queens Park \n Canada</item>
+        <item> Universal Studios Hollywood \n<font fgcolor="detailtext"> 100 Universal City Plaza, Universal City \n United States</font></item>
+    </string-array>
+
+    //NorthAmerica citys popular place name icon 2
+    <string-array name="ANicon2">
+        <item> Empire State Building \n<font fgcolor="detailtext"> 350 5th Ave \n United States</font></item>
+        <item> National Museum of Anthropology \n<font fgcolor="detailtext"> Av Paseo de la Reforma Calzada Gandhi \n Mexico</font></item>
+        <item> Avenida de Maceo \n<font fgcolor="detailtext"> Avenida de Maceo \n Cuba</font></item>
+        <item> Casa Loma \n<font fgcolor="detailtext"> 1 Austin Terrace \n Canada</font></item>
+        <item> Griffith Park \n 4730 Crystal Springs Dr \n United States</item>
+    </string-array>
+
+    //NorthAmerica citys popular place name icon 3
+    <string-array name="ANicon3">
+        <item> Statue of Liberty \n New York, 10004 \n United States</item>
+        <item> Zócalo \n<font fgcolor="#fff"> Plaza de la Constitución \n Mexico</font></item>
+        <item> Morro Castle \n<font fgcolor="city_name_details"> Morro Castle \n Cuba</font></item>
+        <item> Hockey Hall of Fame \n<font fgcolor="city_name_details"> 30 Yonge St \n Canada</font></item>
+        <item> Hollywood Boulevard \n<font fgcolor="city_name_details"> Hollywood Boulevard \n United States</font></item>
+    </string-array>
+
+    //NorthAmerica citys popular place name icon 4
+    <string-array name="ANicon4">
+        <item> National September 11 Memorial Museum \n 180 Greenwich St \n United States</item>
+        <item> Frida Kahlo Museum \n<font fgcolor="#fff">  Londres 247, Del Carmen \n Mexico</font></item>
+        <item> Museum of the Revolution \n<font fgcolor="city_name_details"> Avenida Bélgica \n Cuba</font></item>
+        <item> Art Gallery of Ontario \n<font fgcolor="city_name_details"> 317 Dundas St W \n Canada</font></item>
+        <item> Hollywood Walk of Fame \n<font fgcolor="city_name_details"> 6840 Hollywood Blvd \n United States</font></item>
+    </string-array>
+
+
+</resources>

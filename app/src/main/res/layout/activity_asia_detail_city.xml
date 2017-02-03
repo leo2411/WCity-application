@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_backdrop_height"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp">
+
+            <ImageView
+                android:id="@+id/backdrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways"/>
+            <ImageView
+                android:id="@+id/backbutton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="210dp"
+                android:src="@drawable/backbutton"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="18dp"
+            android:background="@drawable/gradientbackground">
+
+            <TextView
+                android:id="@+id/detail_city_name"
+                android:text="naslov"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/City_names_color"/>
+
+            <ImageView
+                android:id="@+id/detail_line"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:src="@drawable/line"
+                android:layout_below="@id/detail_city_name"/>
+
+            <TextView
+                android:id="@+id/detail_country_name"
+                android:text="Croatia"
+                android:layout_marginBottom="45dp"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_line"
+                android:textColor="@color/detail_text_level2"/>
+
+            <ImageView
+                android:id="@+id/populationicon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="40dp"
+                android:paddingTop="3dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/detail_country_name"
+                android:src="@drawable/populationimg"/>
+            <TextView
+                android:id="@+id/populationtext"
+                android:paddingTop="8dp"
+                android:text="8,674 milions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/populationicon"
+                android:layout_below="@+id/detail_country_name"
+                android:textColor="@color/detail_text_level2"/>
+
+            <ImageView
+                android:id="@+id/areaicon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/detail_country_name"
+                android:src="@drawable/areaimg"/>
+
+            <TextView
+                android:id="@+id/areatext"
+                android:text="1.572 km#2"
+                android:paddingTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detail_country_name"
+                android:layout_alignLeft="@+id/areaicon"
+                android:layout_alignStart="@+id/areaicon"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:textColor="@color/detail_text_level2"/>
+
+            <ImageView
+                android:id="@+id/infotitleimg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infotitleimg"
+                android:layout_below="@id/populationicon"/>
+            <TextView
+                android:id="@+id/infotext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The City of London, the capital of United Kingdom is a year-round tourist destination.
+                 London is the largest city in Europe and located astride the famous river of Thames.
+                  This is the home for most of the international organizations and the city is headed by the Lord Mayor
+                   of London. The city of London has its own police force, call City of London police.
+                    London is considered as both business and tourist destination and visited by millions of people annually."
+                android:layout_below="@id/infotitleimg"
+                android:textColor="@color/detailtext"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"/>
+
+            <ImageView
+                android:id="@+id/popularplacesimg"
+                android:src="@drawable/popularplacesimg"
+                android:layout_below="@id/infotext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/icon1"
+                android:layout_below="@id/popularplacesimg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/texticon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/popularplacesimg"
+                android:layout_alignLeft="@+id/icon1"
+                android:layout_alignStart="@+id/icon1"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"/>
+
+            <ImageView
+                android:id="@+id/icon2"
+                android:layout_below="@id/icon1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:id="@+id/texticon2"
+                android:paddingTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/texticon1"
+                android:layout_alignLeft="@+id/icon2"
+                android:layout_alignStart="@+id/icon2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp" />
+
+            <ImageView
+                android:id="@+id/icon3"
+                android:layout_below="@id/icon2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/texticon3"
+                android:paddingTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/texticon2"
+                android:layout_alignLeft="@+id/icon3"
+                android:layout_alignStart="@+id/icon3"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp" />
+
+            <ImageView
+                android:id="@+id/icon4"
+                android:layout_below="@id/icon3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/texticon4"
+                android:paddingTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/texticon3"
+                android:layout_alignLeft="@+id/icon4"
+                android:layout_alignStart="@+id/icon4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="30dp"/>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+// FrameLayout je od NavigationDrawer,tj. sadržaj ekrana ne drawer list_view-a
+<FrameLayout
+    android:id="@+id/mainContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    //ViewPager for ScrollTab and fragmente
+    <android.support.v4.view.ViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/pager"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        //Title of scroll bar fragmenta,  (Europa,Asia...)
+        <android.support.v4.view.PagerTitleStrip
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="top"
+            android:paddingTop="0dp"
+            android:paddingBottom="4dp"
+            android:id="@+id/PagertitleStrip"
+            android:background="@drawable/pagertitlebackgorund">
+
+        </android.support.v4.view.PagerTitleStrip>
+    </android.support.v4.view.ViewPager>
+</FrameLayout>
+
+<android.support.design.widget.NavigationView
+    android:id="@+id/nav_view"
+    android:layout_height="match_parent"
+    android:layout_width="240dp"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    app:headerLayout="@layout/nav_header"
+    app:menu="@menu/drawer_view"/>
+
+</android.support.v4.widget.DrawerLayout>
+
+
